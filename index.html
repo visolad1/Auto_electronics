@@ -17,36 +17,55 @@
 
     <nav class="nav">
         <div class="container">
-            <ol class="nav-list-1">
-                <li class="nav-list-1-item">
-                    <a href="#"><img src="./img/nav-logo.png" alt="navigation logo" class="nav-list-1_logo"></a>
-                </li>
-                <li class="nav-list-1-item"><button class="nav-list-1_btn">
-                        <img src="./img/icons/bars.svg" class="icon icon-bars">Каталог</button>
-                </li>
-                <li class="nav-list-1-item"><input type="search" class="nav-list-1_search" placeholder="Я ищу"></li>
-                <li class="nav-list-1-item">
-                    <a href="#">
-                        <div class="nav-list-1-icon">
-                            <img src="./img/icons/cart.svg" class="icon-cart"> Корзинка
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-list-1-item">
-                    <a href="#">
-                        <div class="nav-list-1-icon">
-                            <img src="./img/icons/fav.svg" class="icon-fav"> Избранное
-                        </div>
-                    </a>
-                </li>
-                <li class="nav-list-1-item">
-                    <a href="#" class="nav-list-1-item-link">
-                        <div class="nav-list-1-icon">
-                            <img src="./img/icons/profile.svg" class="icon-profile"> Профиль
-                        </div>
-                    </a>
-                </li>
-            </ol>
+            <div class="nav-menu">
+                <a href="#"><img src="./img/nav-logo.png" alt="navigation logo" class="nav-menu_logo"></a>
+                <button class="nav-menu_btn">
+                    <img src="./img/icons/bars.svg" class="icon icon-bars">Каталог
+                </button>
+                <input type="search" class="nav-menu_search" placeholder="Я ищу">
+                <a href="#">
+                    <div class="nav-menu_icon">
+                        <img src="./img/icons/cart.svg" class="icon-cart"> Корзинка
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="nav-menu_icon">
+                        <img src="./img/icons/fav.svg" class="icon-fav"> Избранное
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="nav-menu_icon">
+                        <img src="./img/icons/profile.svg" class="icon-profile"> Профиль
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-submenu">
+                <div class="nav-submenu_description">Динамично. Надежно. Доступно.</div>
+                <div class="nav-submenu_lang">
+                    <img src="./img/icons/lang.svg" class="icon-lang">
+                    RU
+                    <img src="./img/icons/arr-down.svg">
+                </div>
+                <ol class="nav-submenu_list">
+                    <li class="nav-submenu_list-item">О компании <img src="./img/icons/arr-down.svg"></li>
+                    <li class="nav-submenu_list-item">Клиентам <img src="./img/icons/arr-down.svg"></li>
+                    <li class="nav-submenu_list-item">Сотрудничество</li>
+                    <li class="nav-submenu_list-item">Контакты</li>
+                </ol>
+                <div class="nav-submenu_socials">
+                    <img src="./img/icons/telegram.svg" class="telegram">
+                    <img src="./img/icons/wk.svg" class="wk">
+                </div>
+                <div class="phone-number">
+                    8 (800) 455-45-11
+                    <img src="./img/icons/arr-down.svg">
+                </div>
+                <button class="nav-submenu_btn">
+                    <img src="./img/icons/phone.svg">
+                    Заказать звонок
+                </button>
+            </div>
         </div>
     </nav>
 
