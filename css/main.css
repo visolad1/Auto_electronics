@@ -40,3 +40,20 @@ button {
     width: 1410px;
     margin: auto;
 }
+
+.btn {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: var(--orange-03);
+}
+
+.btn:active {
+    background-color: var(--orange-02);
+}
