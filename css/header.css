@@ -1,8 +1,10 @@
-.popular-categories {
+.popular-categories,
+.news {
     margin-top: 30px;
 }
 
-.popular-categories_title {
+.popular-categories_title,
+.news-title {
     color: var(--gray-02);
     font-size: 32px;
     font-weight: bold;
@@ -39,4 +41,33 @@
     font-size: 18px;
     text-align: center;
     font-weight: bold;
+}
+
+.news-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-btn {
+    width: 166px;
+    height: 44px;
+    color: var(--orange-02);
+    background-color: var(--gray-05);
+    border: 1px solid var(--orange-02);
+}
+
+.news-btn:hover {
+    background-color: var(--gray-08);
+}
+
+.news-cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-cards-item {
+    background-color: var(--gray-01);
+    width: calc(100% / 3 - 30px);
+    height: 367px;
 }

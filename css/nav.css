@@ -31,6 +31,17 @@
     border: 1px solid var(--gray-07);
 }
 
+.nav-input_search {
+    position: relative;
+}
+
+.nav-input_search-icon {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    cursor: text;
+}
+
 .nav-menu_search::placeholder {
     font-size: 16px;
     color: var(--gray-07);

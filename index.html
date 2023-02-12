@@ -14,7 +14,6 @@
 </head>
 
 <body>
-
     <nav class="nav">
         <div class="container">
             <div class="nav-menu">
@@ -22,7 +21,10 @@
                 <button class="nav-menu_btn btn">
                     <img src="./img/icons/bars.svg" class="icon icon-bars">Каталог
                 </button>
-                <input type="search" class="nav-menu_search" placeholder="Я ищу">
+                <div class="nav-input_search">
+                    <input type="search" class="nav-menu_search" placeholder="Я ищу">
+                    <img src="./img/icons/input_search.svg" class="nav-input_search-icon">
+                </div>
                 <a href="#">
                     <div class="nav-menu_icon">
                         <img src="./img/icons/cart.svg" class="icon-cart"> Корзинка
@@ -74,63 +76,80 @@
                 </button>
             </div>
         </div>
+    </nav>
 
-        <main class="main">
-            <div class="container">
-                <div class="main-slider">
-                    <img src="./img/main-slider.png" class="main-slider_img">
-                </div>
-                <h1></h1> <!-- !!! -->
-                <div class="popular-categories">
-                    <h2 class="popular-categories_title">Популярные категории</h2>
-                    <div class="popular-categories_cards">
+    <main class="main">
+        <div class="container">
+            <div class="main-slider">
+                <img src="./img/main-slider.png" class="main-slider_img">
+            </div>
 
-                        <div class="popular-categories_cards-item">
-                            <img src="./img/card-1.png">
-                            <div class="popular-categories_cards-item_title">
-                                Стартеры и комплектующие
-                            </div>
+            <h1></h1> <!-- !!! -->
+
+            <div class="popular-categories">
+                <h2 class="popular-categories_title">Популярные категории</h2>
+                <div class="popular-categories_cards">
+
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-1.png">
+                        <div class="popular-categories_cards-item_title">
+                            Стартеры и комплектующие
                         </div>
+                    </div>
 
-                        <div class="popular-categories_cards-item">
-                            <img src="./img/card-2.png">
-                            <div class="popular-categories_cards-item_title">
-                                Термостаты
-                            </div>
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-2.png">
+                        <div class="popular-categories_cards-item_title">
+                            Термостаты
                         </div>
+                    </div>
 
-                        <div class="popular-categories_cards-item">
-                            <img src="./img/card-3.png">
-                            <div class="popular-categories_cards-item_title">
-                                Датчики и комбинации приборов
-                            </div>
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-3.png">
+                        <div class="popular-categories_cards-item_title">
+                            Датчики и комбинации приборов
                         </div>
+                    </div>
 
-                        <div class="popular-categories_cards-item">
-                            <img src="./img/card-4.png">
-                            <div class="popular-categories_cards-item_title">
-                                Генераторы
-                            </div>
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-4.png">
+                        <div class="popular-categories_cards-item_title">
+                            Генераторы
                         </div>
+                    </div>
 
-                        <div class="popular-categories_cards-item">
-                            <img src="./img/card-5.png">
-                            <div class="popular-categories_cards-item_title">
-                                Светотехника
-                            </div>
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-5.png">
+                        <div class="popular-categories_cards-item_title">
+                            Светотехника
                         </div>
+                    </div>
 
-                        <div class="popular-categories_cards-item">
-                            <img src="./img/card-6.png">
-                            <div class="popular-categories_cards-item_title">
-                                Электродвигатели отопителя
-                            </div>
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-6.png">
+                        <div class="popular-categories_cards-item_title">
+                            Электродвигатели отопителя
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
-    </nav>
+
+            <div class="news">
+                <div class="news-top">
+                    <h2 class="news-title">Новости</h2>
+                    <button type="button" class="btn news-btn">
+                        Посмотреть все
+                        <img src="./img/icons/arr-right.svg">
+                    </button>
+                </div>
+                <div class="news-cards">
+                    <div class="news-cards-item"></div>
+                    <div class="news-cards-item"></div>
+                    <div class="news-cards-item"></div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <script src="./js/index.js"></script>
 </body>
