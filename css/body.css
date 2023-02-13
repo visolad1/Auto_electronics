@@ -14,7 +14,8 @@
 .popular-categories_title,
 .news-title,
 .tech-title,
-.recommendation-title {
+.recommendation-title,
+.seo-text-title {
     color: var(--gray-02);
     font-size: 32px;
     font-weight: bold;
@@ -272,4 +273,74 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-cards-item {
+    width: calc(100% / 3 - 30px);
+    height: 190px;
+    border: 1px solid var(--gray-04);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+
+.feature-cards-item-text-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--orange);
+    margin-bottom: 16px;
+}
+
+.feature-cards-item-text-p {
+    width: 270px;
+    font-size: 16px;
+    color: var(--gray-04);
+}
+
+.seo-text {
+    margin-top: 60px;
+    position: relative;
+}
+
+.seo-text-title {
+    margin-bottom: 20px;
+}
+
+.seo-text-p-more,
+.seo-text-p {
+    font-size: 14px;
+    color: var(--gray-04);
+}
+
+.seo-text-p-more {
+    opacity: 0.7;
+}
+
+.seo-text-p {
+    margin-bottom: 20px;
+}
+
+.seo-text-btn {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--gray-04);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.opacity-05 {
+    opacity: 0.5;
+}
+
+.opacity-03 {
+    opacity: 0.3;
 }
