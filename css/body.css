@@ -13,7 +13,8 @@
 
 .popular-categories_title,
 .news-title,
-.tech-title {
+.tech-title,
+.recommendation-title {
     color: var(--gray-02);
     font-size: 32px;
     font-weight: bold;
@@ -195,4 +196,80 @@
     bottom: 18px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.recommendation {
+    margin-top: 60px;
+}
+
+.recommendation-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommendation-cards-item {
+    width: calc((100% / 6) - 30px);
+    position: relative;
+}
+
+.recommendation-cards-item-img {
+    width: 100%;
+}
+
+.recommendation-cards-item-price {
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.recommendation-cards-item-price:hover,
+.recommendation-cards-item-description:hover {
+    color: var(--orange-02);
+    cursor: pointer;
+}
+
+.recommendation-cards-item-price-small {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--gray-07);
+}
+
+.recommendation-cards-item-description {
+    width: 100%;
+    font-size: 14px;
+    color: var(--gray-04);
+    margin-bottom: 8px;
+}
+
+.cat-num {
+    font-size: 14px;
+    color: var(--gray-01);
+    margin-bottom: 20px;
+}
+
+.cat-num-num {
+    font-weight: bold;
+}
+
+.recommendation-cards-item-btn {
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--orange);
+}
+
+.recommendation-cards-item-label {
+    width: 67px;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    background-color: #FF0000;
+    border-radius: 8px;
+    padding: 7px 12px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
