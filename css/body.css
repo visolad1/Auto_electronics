@@ -55,6 +55,8 @@
     font-weight: bold;
 }
 
+/* ????????????????????????????????????????? */
+
 .news {
     position: relative;
 }
@@ -133,10 +135,6 @@
 
 .slider-btn-left,
 .slider-btn-right {
-    width: 33px;
-    cursor: pointer;
-    border-radius: 50%;
-
     width: 35px;
     height: 34px;
     border-radius: 50%;
@@ -148,13 +146,13 @@
 
 .slider-btn-left {
     background-image: url(../img/icons/btn-slide-left.svg);
-    top: 174px;
+    top: calc(50% - 35px);
     left: 15px;
 }
 
 .slider-btn-right {
     background-image: url(../img/icons/btn-slide-right.svg);
-    top: 174px;
+    top: calc(50% - 35px);
     right: 15px;
 }
 
@@ -163,8 +161,11 @@
     background-color: var(--orange);
 }
 
+/* ???????????????????????????????????????????????????? */
+
 .banner {
     margin: 60px 0;
+    width: 100%;
 }
 
 .tech-cards {
@@ -278,6 +279,7 @@
 .feature-cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .feature-cards-item {
@@ -407,7 +409,7 @@
     color: inherit;
     -webkit-appearance: none;
     border-radius: 50%;
-    background-color: #FFFFFF;
+    background-color: inherit;
     cursor: pointer;
 }
 
@@ -580,4 +582,12 @@
     color: var(--gray-07);
     font-size: 12px;
     font-weight: normal;
+}
+
+.popular-categories_cards,
+.news-cards,
+.tech-cards,
+.recommendation-cards,
+.feature-cards {
+    flex-wrap: wrap;
 }

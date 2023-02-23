@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
@@ -19,11 +19,13 @@
             <div class="nav-menu">
                 <a href="#"><img src="./img/nav-logo.png" alt="navigation logo" class="nav-menu_logo"></a>
                 <button class="nav-menu_btn btn">
-                    <img src="./img/icons/bars.svg" class="icon icon-bars">Каталог
+                    <img src="./img/icons/bars.svg" class="icon icon-bars">
+                    <div class="nav-menu_btn-text">Каталог</div>
                 </button>
                 <div class="nav-input_search">
                     <input type="search" class="nav-menu_search" placeholder="Я ищу">
                     <img src="./img/icons/input_search.svg" class="nav-input_search-icon">
+                    <img src="./img/icons/inpur-search-orange.svg" class="nav-input_search-icon-orange">
                 </div>
                 <a href="#">
                     <div class="nav-menu_icon">
@@ -72,7 +74,7 @@
                 </div>
                 <button class="nav-submenu_btn btn">
                     <img src="./img/icons/phone.svg">
-                    Заказать звонок
+                    <div class="nav-submenu_btn-text">Заказать звонок</div>
                 </button>
             </div>
         </div>
@@ -122,14 +124,14 @@
                         </div>
                     </div>
 
-                    <div class="popular-categories_cards-item">
+                    <div class="popular-categories_cards-item display-none">
                         <img src="./img/card-5.png">
                         <div class="popular-categories_cards-item_title">
                             Светотехника
                         </div>
                     </div>
 
-                    <div class="popular-categories_cards-item">
+                    <div class="popular-categories_cards-item display-none">
                         <img src="./img/card-6.png">
                         <div class="popular-categories_cards-item_title">
                             Электродвигатели отопителя
@@ -154,7 +156,7 @@
                         <div class="news-label">Новость</div>
                     </div>
 
-                    <div class="news-cards-item">
+                    <div class="news-cards-item display-none-for-mob">
                         <img src="./img/news-img.png" class="news-cards-item_img">
                         <h3 class="news-cards-item_title">Заголовок в две строчки или в три строчки (третья строчка)
                         </h3>
@@ -162,7 +164,7 @@
                         <div class="news-label">Новость</div>
                     </div>
 
-                    <div class="news-cards-item">
+                    <div class="news-cards-item display-none-for-mob">
                         <img src="./img/news-img.png" class="news-cards-item_img">
                         <h3 class="news-cards-item_title">Заголовок в две строчки или в три строчки</h3>
                         <div class="news-date"><img src="./img/icons/date-icon.svg">28.09.2022</div>
@@ -175,7 +177,7 @@
                 </div>
             </div>
 
-            <div class="banner"><img src="./img/banner.png" alt="banner"></div>
+            <div class="banner"><img src="./img/banner.png" alt="banner" class="banner-img"></div>
 
             <div class="tech">
                 <h2 class="tech-title">Автозапчасти к технике</h2>
@@ -254,7 +256,7 @@
                         </button>
                     </div>
 
-                    <div class="recommendation-cards-item">
+                    <div class="recommendation-cards-item display-none-for-mob">
                         <img src="./img/recommendation.png" class="recommendation-cards-item-img">
                         <p class="recommendation-cards-item-price">999999 ₽<span
                                 class="recommendation-cards-item-price-small">999999
@@ -272,7 +274,7 @@
                         <div class="recommendation-cards-item-label">Акция</div>
                     </div>
 
-                    <div class="recommendation-cards-item">
+                    <div class="recommendation-cards-item display-none-for-mob">
                         <img src="./img/recommendation.png" class="recommendation-cards-item-img">
                         <p class="recommendation-cards-item-price">999999 ₽<span
                                 class="recommendation-cards-item-price-small">999999
@@ -289,7 +291,7 @@
                         </button>
                     </div>
 
-                    <div class="recommendation-cards-item">
+                    <div class="recommendation-cards-item display-none display-none-for-mob">
                         <img src="./img/recommendation.png" class="recommendation-cards-item-img">
                         <p class="recommendation-cards-item-price">999999 ₽<span
                                 class="recommendation-cards-item-price-small">999999
@@ -306,7 +308,7 @@
                         </button>
                     </div>
 
-                    <div class="recommendation-cards-item">
+                    <div class="recommendation-cards-item display-none display-none-for-mob">
                         <img src="./img/recommendation.png" class="recommendation-cards-item-img">
                         <p class="recommendation-cards-item-price">999999 ₽<span
                                 class="recommendation-cards-item-price-small">999999
@@ -325,7 +327,7 @@
                 </div>
             </div>
 
-            <div class="banner"><img src="./img/banner.png" alt="banner"></div>
+            <div class="banner"><img src="./img/banner.png" alt="banner" class="banner-img"></div>
 
             <div class="feature">
                 <div class="feature-cards">
@@ -369,14 +371,14 @@
                     дает нам возможность вместе с нашими партнерами чувствовать уверенность в завтрашнем дне.
                 </p>
 
-                <p class="seo-text-p-more">
+                <p class="seo-text-p-more display-none-for-mob">
                     Наша компания начала свой путь на рынке автозапчастей в 1993-м.
                     <br>
-                    <span class="opacity-05">
+                    <span class="opacity-05 display-none-for-mob">
                         За 27 лет работы в условиях жесткой конкуренции мы приобрели колоссальный опыт, устойчивый,
                         постоянно расширяемый рынок сбыта и огромное количество деловых партнеров, которые стали
                     </span>
-                    <span class="opacity-03">
+                    <span class="opacity-03 display-none-for-mob">
                         нашими друзьями. Всегда приятно работать с теми, кто никогда не подведет.
                     </span>
                     <br>
@@ -419,6 +421,7 @@
                         <button type="submit" class="subscription-btn btn">Подписаться</button>
                     </div>
                 </div>
+
                 <p class="subscription-p">Нажимая «Подписаться», вы соглашаетесь с <a href="#"
                         class="subscription-p-link">политикой конфиденциальности</a>
                 </p>

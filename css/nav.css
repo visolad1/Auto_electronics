@@ -43,6 +43,10 @@
     cursor: text;
 }
 
+.nav-input_search-icon-orange {
+    display: none;
+}
+
 .nav-menu_search::placeholder {
     font-size: 16px;
     color: var(--gray-07);
