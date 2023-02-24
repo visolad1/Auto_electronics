@@ -279,4 +279,104 @@
         font-size: 18px;
     }
 
+    .subscription-title {
+        font-size: 18px;
+    }
+
+    .subscription {
+        height: 326px;
+        padding: 13px 18px;
+    }
+
+    .subscription-checkbox-1,
+    .subscription-checkbox-2,
+    .subscription-checkbox-3 {
+        width: 100px;
+        text-align: center;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    [type=checkbox] {
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .subscription-input-email {
+        width: 308px;
+    }
+
+    .subscription-checkbox {
+        width: 300px;
+        display: flex;
+    }
+
+    .subscription-input {
+        flex-direction: column;
+        align-items: center;
+        gap: 31px;
+    }
+
+    .subscription-body {
+        flex-direction: column;
+        gap: 11px;
+    }
+
+    .subscription-p {
+        text-align: center;
+    }
+
+    .footer {
+        position: relative;
+        padding-top: 29px;
+
+    }
+
+    .footer-block-1-text,
+    .footer-block-1-link {
+        width: 307px;
+        text-align: center;
+    }
+
+    .footer-block-3-top {
+        border: none;
+    }
+
+    .footer-icons {
+        position: absolute;
+        top: 264px;
+        left: 137px;
+    }
+
+    .footer-block-3-link {
+        position: absolute;
+        top: 206px;
+        left: 83px;
+        width: 209px;
+
+    }
+
+    .footer-logo {
+        width: 126px;
+    }
+
+    .margin-bottom-15 {
+        margin-bottom: 11px;
+    }
+
+    .margin-bottom-52 {
+        margin-bottom: 35px;
+    }
+
+    .footer-icons img {
+        width: 36px;
+    }
+
+    .footer-block-1-link {
+        width: 100%;
+        position: absolute;
+        bottom: 28px;
+    }
+
 }
