@@ -63,6 +63,10 @@
     flex-direction: column;
 }
 
+.nav-menu-btn-mob {
+    display: none;
+}
+
 
 .nav-submenu {
     display: flex;
