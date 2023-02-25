@@ -1,0 +1,412 @@
+@media (max-width:1410px) and (min-width: 930px) {
+    .container {
+        width: 1024px;
+    }
+
+    .nav-menu {
+        gap: 15px;
+    }
+
+    .nav-submenu_description,
+    .nav-submenu_btn-text,
+    .nav-menu_btn-text,
+    .display-none {
+        display: none;
+    }
+
+    .nav-submenu_lang,
+    .nav-submenu_list,
+    .nav-submenu_socials,
+    .phone-number {
+        margin: 0;
+    }
+
+    .nav-submenu_btn {
+        width: 40px;
+    }
+
+    .nav-menu_search {
+        width: 482px;
+    }
+
+    .nav-menu_btn {
+        width: 52px;
+        height: 44px;
+        padding: 12px 16px;
+    }
+
+    .popular-categories_title,
+    .news-title,
+    .tech-title,
+    .recommendation-title,
+    .seo-text-title {
+        margin-bottom: 16px;
+    }
+
+
+    .popular-categories_cards-item {
+        width: calc(100% / 4 - 30px);
+    }
+
+    .popular-categories,
+    .news {
+        margin-top: 60px;
+    }
+
+    .news-cards-item {
+        height: 280px;
+    }
+
+    .news-cards-item_img {
+        height: 161px;
+    }
+
+    .news-cards-item_title {
+        width: 290px;
+        font-size: 22px;
+    }
+
+    .tech-cards {
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .tech-cards-item {
+        width: calc(100% / 4 - 33px);
+    }
+
+    .recommendation-cards-item {
+        width: calc(100% / 4 - 30px);
+    }
+
+    .feature-cards-item {
+        height: 277px;
+        justify-content: start;
+        align-items: start;
+        flex-direction: column;
+        position: relative;
+        padding-top: 24px;
+        padding-left: 36px;
+    }
+
+    .feature-cards-item img {
+        width: 72px;
+    }
+
+    .feature-cards-item-text-title {
+        position: absolute;
+        font-size: 22px;
+        top: 48px;
+        left: 124px;
+    }
+
+    .feature-cards-item-text-p {
+        width: 234px;
+    }
+
+    .subscription {
+        position: relative;
+    }
+
+    .subscription-checkbox-1,
+    .subscription-checkbox-2,
+    .subscription-checkbox-3 {
+        width: 191px;
+    }
+
+    .subscription-input-email {
+        width: 417px;
+    }
+
+    .subscription-title {
+        width: 242px;
+    }
+
+    .subscription-body {
+        flex-direction: column;
+        gap: 25px;
+        position: absolute;
+        top: 30px;
+        right: 25px;
+    }
+
+    .subscription-p {
+        width: 264px;
+    }
+
+    .subscription-btn {
+        width: 185px;
+    }
+
+    .footer-list {
+        gap: 20px;
+    }
+
+    .footer-block-3-top {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    .footer-block-3-link {
+        width: 209px;
+        text-align: right;
+    }
+}
+
+@media (max-width:1024px) {
+    .container {
+        width: 930px;
+    }
+
+    .nav-menu_btn-text {
+        display: none;
+    }
+
+    .nav-menu_btn {
+        width: 52px;
+        height: 44px;
+        padding: 12px 16px;
+    }
+}
+
+
+@media (max-width: 360px) {
+
+    .container {
+        width: 340px;
+    }
+
+    .nav-menu_search,
+    .nav-input_search-icon,
+    .nav-menu_icon,
+    .nav-submenu,
+    .slider-btn-left,
+    .slider-btn-right,
+    .nav-menu_btn-text,
+    .nav-menu_btn,
+    .nav-input_search-icon,
+    .display-none-for-mob {
+        display: none;
+    }
+
+    .popular-categories_title,
+    .news-title,
+    .tech-title,
+    .recommendation-title,
+    .seo-text-title {
+        font-size: 28px;
+    }
+
+    .feature-cards-item,
+    .subscription-checkbox-1,
+    .subscription-checkbox-2,
+    .subscription-checkbox-3,
+    .subscription-input,
+    .subscription-body,
+    .footer-content,
+    .footer-block-1,
+    .footer-block-3-top,
+    .mob-footer-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav {
+        width: 100%;
+        z-index: 2;
+        background-color: #fff;
+        position: fixed;
+        box-shadow: 0px 5px 22px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .nav-menu_logo {
+        width: 136px;
+        height: 54px;
+    }
+
+
+    .nav-menu_btn:hover {
+        background-color: #fff;
+    }
+
+    .nav-menu-btn-mob {
+        display: block;
+        background-color: #fff;
+    }
+
+    .nav-menu-btn-mob:hover {
+        cursor: pointer;
+        background-color: var(--gray-08);
+        border-radius: 12px;
+    }
+
+    .nav-input_search-icon-orange {
+        display: block;
+        width: 24px;
+    }
+
+    .main-slider_img {
+        height: 169px;
+        margin-top: 100px;
+    }
+
+    .popular-categories_cards-item {
+        height: 150px;
+        padding: 14px 0;
+        gap: 16px;
+    }
+
+    .popular-categories_cards-item_title {
+        font-size: 14px;
+    }
+
+    .news-cards-item {
+        width: 100%;
+        height: 304px;
+    }
+
+    .banner-img {
+        height: 112px;
+    }
+
+    .tech-cards,
+    .popular-categories_cards {
+        gap: 15px;
+        justify-content: start;
+    }
+
+    .tech-cards-item {
+        height: 150px;
+        position: relative;
+    }
+
+    .tech-card-item-img {
+        width: 128px;
+        position: absolute;
+        right: 0;
+    }
+
+    .recommendation-cards-item,
+    .tech-cards-item,
+    .popular-categories_cards-item {
+        width: calc(50% - 15px);
+    }
+
+    .recommendation-cards-item-price {
+        width: 168px;
+        font-size: 20px;
+    }
+
+    .recommendation-cards-item-price-small {
+        font-size: 12px;
+    }
+
+    .feature-cards {
+        gap: 30px;
+    }
+
+    .feature-cards-item {
+        width: 100%;
+        height: 318px;
+        text-align: center;
+    }
+
+    .seo-text-title {
+        font-size: 18px;
+    }
+
+    .subscription-title {
+        font-size: 18px;
+    }
+
+    .subscription {
+        height: 326px;
+        padding: 13px 18px;
+    }
+
+    .subscription-checkbox-1,
+    .subscription-checkbox-2,
+    .subscription-checkbox-3 {
+        width: 100px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    [type=checkbox] {
+        width: 1.5em;
+        height: 1.5em;
+    }
+
+    .subscription-input-email {
+        width: 308px;
+    }
+
+    .subscription-checkbox {
+        width: 300px;
+        display: flex;
+    }
+
+    .subscription-input {
+        align-items: center;
+        gap: 31px;
+    }
+
+    .subscription-body {
+        gap: 11px;
+    }
+
+    .subscription-p {
+        text-align: center;
+    }
+
+    .footer {
+        padding-top: 29px;
+        position: relative;
+    }
+
+    .footer-block-1 {
+        align-items: center;
+    }
+
+    .footer-logo {
+        width: 126px;
+    }
+
+    .footer-block-1-text {
+        text-align: center;
+        width: 307px;
+    }
+
+    .footer-block-3-top {
+        width: 100%;
+        border: none;
+        align-items: center;
+        gap: 27px;
+    }
+
+    .footer-block-3-link,
+    .footer-block-1-link {
+        text-align: center;
+    }
+
+    .mob-footer-bottom {
+        width: 100%;
+        align-items: center;
+        gap: 3px;
+        position: absolute;
+        bottom: 28px;
+    }
+
+    .margin-bottom-15 {
+        margin-bottom: 11px;
+    }
+
+    .margin-bottom-52 {
+        margin-bottom: 35px;
+    }
+
+    .footer-icons img {
+        width: 36px;
+    }
+}

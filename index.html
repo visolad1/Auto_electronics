@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Автоэлектроника</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-menu">
+                <button type="button" class="nav-menu-btn-mob">
+                    <img src="./img/icons/burger-btn-mob.svg" class="nav-menu-btn-img-mob">
+                </button>
+                <a href="#"><img src="./img/nav-logo.png" alt="navigation logo" class="nav-menu_logo"></a>
+                <button class="nav-menu_btn btn">
+                    <img src="./img/icons/bars.svg" class="icon icon-bars">
+                    <div class="nav-menu_btn-text">Каталог</div>
+                </button>
+                <div class="nav-input_search">
+                    <input type="search" class="nav-menu_search" placeholder="Я ищу">
+                    <img src="./img/icons/input_search.svg" class="nav-input_search-icon">
+                    <img src="./img/icons/inpur-search-orange.svg" class="nav-input_search-icon-orange">
+                </div>
+                <a href="#" class="display-none-for-mob">
+                    <div class="nav-menu_icon">
+                        <img src="./img/icons/cart.svg" class="icon-cart"> Корзинка
+                    </div>
+                </a>
+                <a href="#" class="display-none-for-mob">
+                    <div class="nav-menu_icon">
+                        <img src="./img/icons/fav.svg" class="icon-fav"> Избранное
+                    </div>
+                </a>
+                <a href="#" class="display-none-for-mob">
+                    <div class=" nav-menu_icon">
+                        <img src="./img/icons/profile.svg" class="icon-profile"> Профиль
+                    </div>
+                </a>
+            </div>
+
+            <div class="nav-submenu">
+                <div class="nav-submenu_description">Динамично. Надежно. Доступно.</div>
+                <div class="nav-submenu_lang">
+                    <img src="./img/icons/lang.svg" class="icon-lang">
+                    RU
+                    <img src="./img/icons/arr-down.svg">
+                </div>
+                <ol class="nav-submenu_list">
+                    <li class="nav-submenu_list-item">
+                        <a href="#" class="nav-submenu_list-item_link">О компании <img
+                                src="./img/icons/arr-down.svg"></a>
+                    </li>
+                    <li class="nav-submenu_list-item">
+                        <a href="#" class="nav-submenu_list-item_link">Клиентам <img src="./img/icons/arr-down.svg"></a>
+                    </li>
+                    <li class="nav-submenu_list-item"><a href="#" class="nav-submenu_list-item_link">Сотрудничество</a>
+                    </li>
+                    <li class="nav-submenu_list-item"><a href="#" class="nav-submenu_list-item_link">Контакты</a></li>
+                </ol>
+                <div class="nav-submenu_socials">
+                    <a href="#"><img src="./img/icons/telegram.svg" class="telegram"></a>
+                    <a href="#"><img src="./img/icons/wk.svg" class="wk"></a>
+                </div>
+                <div class="phone-number">
+                    <a href="#" class="phone-number">8 (800) 455-45-11
+                        <img src="./img/icons/arr-down.svg">
+                    </a>
+                </div>
+                <button class="nav-submenu_btn btn">
+                    <img src="./img/icons/phone.svg">
+                    <div class="nav-submenu_btn-text">Заказать звонок</div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../img/banner.png"></div>
+                    <div class="swiper-slide"><img src="../img/banner.png"></div>
+                    <div class="swiper-slide"><img src="../img/banner.png"></div>
+                    <div class="swiper-slide"><img src="../img/banner.png"></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <h1></h1> <!-- !!! -->
+
+            <div class="popular-categories">
+                <h2 class="popular-categories_title">Популярные категории</h2>
+                <div class="popular-categories_cards">
+
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-1.png">
+                        <div class="popular-categories_cards-item_title">
+                            Стартеры и комплектующие
+                        </div>
+                    </div>
+
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-2.png">
+                        <div class="popular-categories_cards-item_title">
+                            Термостаты
+                        </div>
+                    </div>
+
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-3.png">
+                        <div class="popular-categories_cards-item_title">
+                            Датчики и комбинации приборов
+                        </div>
+                    </div>
+
+                    <div class="popular-categories_cards-item">
+                        <img src="./img/card-4.png">
+                        <div class="popular-categories_cards-item_title">
+                            Генераторы
+                        </div>
+                    </div>
+
+                    <div class="popular-categories_cards-item display-none">
+                        <img src="./img/card-5.png">
+                        <div class="popular-categories_cards-item_title">
+                            Светотехника
+                        </div>
+                    </div>
+
+                    <div class="popular-categories_cards-item display-none">
+                        <img src="./img/card-6.png">
+                        <div class="popular-categories_cards-item_title">
+                            Электродвигатели отопителя
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="news">
+                <div class="news-top">
+                    <h2 class="news-title">Новости</h2>
+                    <button type="button" class="btn news-btn">
+                        Посмотреть все
+                        <img src="./img/icons/arr-right.svg">
+                    </button>
+                </div>
+                <div class="news-cards">
+                    <div class="news-cards-item">
+                        <img src="./img/news-img.png" class="news-cards-item_img">
+                        <h3 class="news-cards-item_title">Заголовок в две строчки или в три строчки</h3>
+                        <div class="news-date"><img src="./img/icons/date-icon.svg">28.09.2022</div>
+                        <div class="news-label">Новость</div>
+                    </div>
+
+                    <div class="news-cards-item display-none-for-mob">
+                        <img src="./img/news-img.png" class="news-cards-item_img">
+                        <h3 class="news-cards-item_title">Заголовок в две строчки или в три строчки (третья строчка)
+                        </h3>
+                        <div class="news-date"><img src="./img/icons/date-icon.svg">28.09.2022</div>
+                        <div class="news-label">Новость</div>
+                    </div>
+
+                    <div class="news-cards-item display-none-for-mob">
+                        <img src="./img/news-img.png" class="news-cards-item_img">
+                        <h3 class="news-cards-item_title">Заголовок в две строчки или в три строчки</h3>
+                        <div class="news-date"><img src="./img/icons/date-icon.svg">28.09.2022</div>
+                        <div class="news-label">Новость</div>
+                    </div>
+                </div>
+                <div class="slider-btns">
+                    <div class="slider-btn-left"></div>
+                    <div class="slider-btn-right"></div>
+                </div>
+            </div>
+
+            <div class="banner"><img src="./img/banner.png" alt="banner" class="banner-img"></div>
+
+            <div class="tech">
+                <h2 class="tech-title">Автозапчасти к технике</h2>
+                <div class="tech-cards">
+                    <div class="tech-cards-item">
+                        <img src="./img/tech-card-1.png" class="tech-card-item-img">
+                        <p class="tech-cards-item-text">Грузовые</p>
+                    </div>
+
+                    <div class="tech-cards-item">
+                        <img src="./img/tech-card-2.png" class="tech-card-item-img">
+                        <p class="tech-cards-item-text">Трактора</p>
+                    </div>
+
+                    <div class="tech-cards-item">
+                        <img src="./img/tech-card-3.png" class="tech-card-item-img">
+                        <p class="tech-cards-item-text">Легковые</p>
+                    </div>
+
+                    <div class="tech-cards-item">
+                        <img src="./img/tech-card-4.png" class="tech-card-item-img">
+                        <p class="tech-cards-item-text">Сельхозтехника</p>
+                    </div>
+
+                    <div class="tech-cards-item">
+                        <img src="./img/tech-card-5.png" class="tech-card-item-img">
+                        <p class="tech-cards-item-text">Автобусы</p>
+                    </div>
+
+                    <div class="tech-cards-item">
+                        <img src="./img/tech-card-6.png" class="tech-card-item-img">
+                        <p class="tech-cards-item-text">Спецтехника</p>
+                    </div>
+
+                    <div class="tech-cards-item">
+                        <img src="./img/tech-card-7.png" class="tech-card-item-img">
+                        <p class="tech-cards-item-text">Другое</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recommendation">
+                <h2 class="recommendation-title">Хиты продаж</h2>
+                <div class="recommendation-cards">
+                    <div class="recommendation-cards-item">
+                        <img src="./img/recommendation.png" class="recommendation-cards-item-img">
+                        <p class="recommendation-cards-item-price">999999 ₽<span
+                                class="recommendation-cards-item-price-small">999999 ₽</span></p>
+                        <p class="recommendation-cards-item-description">Фара светодиодная дополнительная круглая,
+                            направленный свет, 14 диодов, 42W, (115х42х142)
+                        </p>
+                        <div class="cat-num">
+                            Кат. номер:
+                            <div class="cat-num-num">AE42R-14LED-42HC</div>
+                        </div>
+                        <button class="btn recommendation-cards-item-btn">
+                            <img src="./img/icons/white-cart.svg"> В корзину
+                        </button>
+                        <div class="recommendation-cards-item-label">Акция</div>
+                    </div>
+
+                    <div class="recommendation-cards-item">
+                        <img src="./img/recommendation.png" class="recommendation-cards-item-img">
+                        <p class="recommendation-cards-item-price">999999 ₽<span
+                                class="recommendation-cards-item-price-small">999999
+                                ₽</span></p>
+                        <p class="recommendation-cards-item-description">Фара светодиодная дополнительная круглая,
+                            направленный свет, 14 диодов, 42W, (115х42х142)
+                        </p>
+                        <div class="cat-num">
+                            Кат. номер:
+                            <div class="cat-num-num">AE42R-14LED-42HC</div>
+                        </div>
+                        <button class="btn recommendation-cards-item-btn">
+                            <img src="./img/icons/white-cart.svg"> В корзину
+                        </button>
+                    </div>
+
+                    <div class="recommendation-cards-item display-none-for-mob">
+                        <img src="./img/recommendation.png" class="recommendation-cards-item-img">
+                        <p class="recommendation-cards-item-price">999999 ₽<span
+                                class="recommendation-cards-item-price-small">999999
+                                ₽</span></p>
+                        <p class="recommendation-cards-item-description">Фара светодиодная дополнительная круглая,
+                            направленный свет, 14 диодов, 42W, (115х42х142)
+                        </p>
+                        <div class="cat-num">
+                            Кат. номер:
+                            <div class="cat-num-num">AE42R-14LED-42HC</div>
+                        </div>
+                        <button class="btn recommendation-cards-item-btn">
+                            <img src="./img/icons/white-cart.svg"> В корзину
+                        </button>
+                        <div class="recommendation-cards-item-label">Акция</div>
+                    </div>
+
+                    <div class="recommendation-cards-item display-none-for-mob">
+                        <img src="./img/recommendation.png" class="recommendation-cards-item-img">
+                        <p class="recommendation-cards-item-price">999999 ₽<span
+                                class="recommendation-cards-item-price-small">999999
+                                ₽</span></p>
+                        <p class="recommendation-cards-item-description">Фара светодиодная дополнительная круглая,
+                            направленный свет, 14 диодов, 42W, (115х42х142)
+                        </p>
+                        <div class="cat-num">
+                            Кат. номер:
+                            <div class="cat-num-num">AE42R-14LED-42HC</div>
+                        </div>
+                        <button class="btn recommendation-cards-item-btn">
+                            <img src="./img/icons/white-cart.svg"> В корзину
+                        </button>
+                    </div>
+
+                    <div class="recommendation-cards-item display-none display-none-for-mob">
+                        <img src="./img/recommendation.png" class="recommendation-cards-item-img">
+                        <p class="recommendation-cards-item-price">999999 ₽<span
+                                class="recommendation-cards-item-price-small">999999
+                                ₽</span></p>
+                        <p class="recommendation-cards-item-description">Фара светодиодная дополнительная круглая,
+                            направленный свет, 14 диодов, 42W, (115х42х142)
+                        </p>
+                        <div class="cat-num">
+                            Кат. номер:
+                            <div class="cat-num-num">AE42R-14LED-42HC</div>
+                        </div>
+                        <button class="btn recommendation-cards-item-btn">
+                            <img src="./img/icons/white-cart.svg"> В корзину
+                        </button>
+                    </div>
+
+                    <div class="recommendation-cards-item display-none display-none-for-mob">
+                        <img src="./img/recommendation.png" class="recommendation-cards-item-img">
+                        <p class="recommendation-cards-item-price">999999 ₽<span
+                                class="recommendation-cards-item-price-small">999999
+                                ₽</span></p>
+                        <p class="recommendation-cards-item-description">Фара светодиодная дополнительная круглая,
+                            направленный свет, 14 диодов, 42W, (115х42х142)
+                        </p>
+                        <div class="cat-num">
+                            Кат. номер:
+                            <div class="cat-num-num">AE42R-14LED-42HC</div>
+                        </div>
+                        <button class="btn recommendation-cards-item-btn">
+                            <img src="./img/icons/white-cart.svg"> В корзину
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner"><img src="./img/banner.png" alt="banner" class="banner-img"></div>
+
+            <div class="feature">
+                <div class="feature-cards">
+                    <div class="feature-cards-item">
+                        <img src="./img/feature-card-1.png">
+                        <div class="feature-cards-item-text">
+                            <h3 class="feature-cards-item-text-title">Динамично</h3>
+                            <p class="feature-cards-item-text-p">Мы предлагаем более 15000 наименований запчастей на все
+                                виды автотранспортных средств, тракторную и сельхозтехнику, спецтехнику.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-cards-item">
+                        <img src="./img/feature-card-2.png">
+                        <div class="feature-cards-item-text">
+                            <h3 class="feature-cards-item-text-title">Надежно</h3>
+                            <p class="feature-cards-item-text-p">На весь ассортимент мы предоставляем гарантию до 3 лет!
+                                Продукция «АвтоЭлектрики» выпускается на современном заводском
+                                оборудовании.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feature-cards-item">
+                        <img src="./img/feature-card-3.png">
+                        <div class="feature-cards-item-text">
+                            <h3 class="feature-cards-item-text-title">Доступно</h3>
+                            <p class="feature-cards-item-text-p">Ценовая политика фирмы – одна из наших самых сильных
+                                сторон. Мы следим за ситуацией на рынке.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="seo-text">
+                <h2 class="seo-text-title">Оптовая продажа автотракторных запчастей</h2>
+                <p class="seo-text-p">
+                    Гармоничное развитие всех подразделений компании в условиях современного рынка
+                    дает нам возможность вместе с нашими партнерами чувствовать уверенность в завтрашнем дне.
+                </p>
+
+                <p class="seo-text-p-more display-none-for-mob">
+                    Наша компания начала свой путь на рынке автозапчастей в 1993-м.
+                    <br>
+                    <span class="opacity-05 display-none-for-mob">
+                        За 27 лет работы в условиях жесткой конкуренции мы приобрели колоссальный опыт, устойчивый,
+                        постоянно расширяемый рынок сбыта и огромное количество деловых партнеров, которые стали
+                    </span>
+                    <span class="opacity-03 display-none-for-mob">
+                        нашими друзьями. Всегда приятно работать с теми, кто никогда не подведет.
+                    </span>
+                    <br>
+                    <span class="seo-text-hide">
+                        Сегодня «АвтоЭлектрика» – крупнейший оптовый дилер автотракторных запчастей в России и странах
+                        СНГ. <br>
+                        Мы занимаемся
+                        оптовыми продажами продукции всех профильных российских, белорусских и украинских заводов. <br>
+                        Запущены
+                        производство и
+                        реализация запчастей под собственной торговой маркой «АвтоЭлектрика».
+                    </span>
+                </p>
+
+                <div class="seo-text-wrapper">
+                    <a href="#" class="seo-text-btn">Читать далее <img src="./img/icons/arr-down.svg"></a>
+                </div>
+            </div>
+
+            <div class="subscription">
+                <h2 class="subscription-title">Выберите категорию рассылки</h2>
+                <div class="subscription-body">
+                    <div class="subscription-checkbox">
+                        <label class="subscription-checkbox-1"><input type="checkbox" value="1"
+                                name="subscription-checkbox-1" class="subscription-checkbox-item">
+                            Электронная версия каталога продукции
+                        </label>
+
+                        <label class="subscription-checkbox-2"><input type="checkbox" value="2"
+                                name="subscription-checkbox-2" class="subscription-checkbox-item">
+                            Прайс-лист с актуальными ценами
+                        </label>
+                        <label class="subscription-checkbox-3"><input type="checkbox" value="3"
+                                name="subscription-input-3" class="subscription-checkbox-item">
+                            Информация о новинках и акциях
+                        </label>
+                    </div>
+                    <div class="subscription-input">
+                        <input type="email" class="subscription-input-email" placeholder="Введите Ваш e-mail">
+                        <button type="submit" class="subscription-btn btn">Подписаться</button>
+                    </div>
+                </div>
+
+                <p class="subscription-p">Нажимая «Подписаться», вы соглашаетесь с <a href="#"
+                        class="subscription-p-link">политикой конфиденциальности</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-block-1">
+                    <img src="./img/footer-logo.png" class="footer-logo">
+                    <p class="footer-block-1-text margin-bottom-15">Оптовая продажа запчастей
+                        на все виды автотранспортных средств</p>
+                    <p class="footer-block-1-text margin-bottom-52">ИП Хомченко Максим Альбертович
+                        ОГРНИП 000000000</p>
+                    <div class="mob-footer-bottom">
+                        <p class="footer-block-1-text ">1993 - 2022 © АвтоЭлектрика</p>
+                        <a href="#" class="footer-block-1-link ">Политика конфиденциальности</a>
+                    </div>
+                </div>
+                <div class="footer-block-2 display-none-for-mob">
+                    <ol class="footer-list">
+                        <li class="footer-list-item">
+                            <ol class="footer-list-item_list">
+                                <li class="footer-list-item_list-item">
+                                    <h4 class="footer-list-item_list-item-title">О компании</h4>
+                                </li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Документы и реквизиты</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Бренды</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Сотрудники</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Контакты</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Карьера</a></li>
+                            </ol>
+                        </li>
+                        <li class="footer-list-item">
+                            <ol class="footer-list-item_list">
+                                <li class="footer-list-item_list-item">
+                                    <h4 class="footer-list-item_list-item-title">Клиентам</h4>
+                                </li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Новости</a>
+                                </li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Как зарегестрироваться</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Как сделать заказ</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Способы оплаты</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Гарантии возврата</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Вопросы и ответы</a></li>
+                                <li class="footer-list-item_list-item"><a href="#"
+                                        class="footer-list-item_list-item-link">Доставка и склад</a></li>
+                            </ol>
+                        </li>
+                        <li class="footer-list-item">
+                            <h4 class="footer-list-item-title">Сотрудничество</h4>
+                        </li>
+                    </ol>
+                </div>
+                <div class="footer-block-3">
+                    <div class="footer-block-3-top">
+                        <a href="#" class="footer-block-3-link">Ссылка на форму обратной связи со
+                            службой контроля
+                            качества</a>
+                        <div class="footer-icons">
+                            <a href="#"><img src="./img/icons/telegram.svg"></a>
+                            <a href="#"><img src="./img/icons/wk.svg"></a>
+                        </div>
+                    </div>
+
+                    <p class="footer-block-3-text display-none-for-mob">
+                        <span class="footer-block-3-text-description">Время работы</span><br>
+                        пн. - пт. с 7:30 до 18:00
+                    </p>
+                    <p class="footer-block-3-text display-none-for-mob">
+                        <span class="footer-block-3-text-description">Телефоны:</span><br>
+                        8 (800) 455-55-15 <br>
+                        +7 (495) 108-54-64
+                    </p>
+                    <p class="footer-block-3-text display-none-for-mob">
+                        <span class="footer-block-3-text-description">Адрес эл. почты</span><br>
+                        info@auto-e.ru
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>
