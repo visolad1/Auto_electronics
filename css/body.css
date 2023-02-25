@@ -583,11 +583,3 @@
     font-size: 12px;
     font-weight: normal;
 }
-
-.popular-categories_cards,
-.news-cards,
-.tech-cards,
-.recommendation-cards,
-.feature-cards {
-    flex-wrap: wrap;
-}

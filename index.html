@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
     <link rel="stylesheet" href="./css/index.css">
     <title>Автоэлектроника</title>
 </head>
@@ -85,12 +87,16 @@
 
     <main class="main">
         <div class="container">
-            <div class="main-slider">
-                <img src="./img/main-slider.png" class="main-slider_img">
-                <div class="slider-btns">
-                    <div class="slider-btn-left"></div>
-                    <div class="slider-btn-right"></div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../img/banner.png"></div>
+                    <div class="swiper-slide"><img src="../img/banner.png"></div>
+                    <div class="swiper-slide"><img src="../img/banner.png"></div>
+                    <div class="swiper-slide"><img src="../img/banner.png"></div>
                 </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
             </div>
 
             <h1></h1> <!-- !!! -->
@@ -521,7 +527,22 @@
         </div>
     </footer>
 
-    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
 </body>
 
 </html>
